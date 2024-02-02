@@ -1,0 +1,26 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model MarketplaceApplicant {
+  id              String    @id
+  lastApplication DateTime  @default(now())
+  lastFormSent    DateTime?
+}
+
+model ReportedMessage {
+  id          String @id @default(cuid())
+  guildId     String
+  channelId   String
+  messageId   String
+  authorId    String
+  reportCount Int    @default(1)
+}
