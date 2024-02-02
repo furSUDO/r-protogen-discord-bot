@@ -1,5 +1,5 @@
 import { ChannelType, UserContextMenuCommandInteraction } from "discord.js";
-import { env } from "env";
+import { env } from "../../../env";
 import { UserCommand } from "../base";
 
 export class UserReport implements UserCommand {

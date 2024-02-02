@@ -1,5 +1,5 @@
 import { ChannelType, MessageContextMenuCommandInteraction } from "discord.js";
-import { env } from "env";
+import { env } from "../../../env";
 import { MessageCommand } from "../base";
 
 export class MessageReport implements MessageCommand {

@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { ChannelType, ModalSubmitInteraction } from 'discord.js';
-import { env } from 'env';
+import { env } from '../../env';
 import { Submission } from './base';
 
 
