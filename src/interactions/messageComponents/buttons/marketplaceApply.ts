@@ -58,14 +58,14 @@ async function logicOrSomethingIDK(interaction: ButtonInteraction, prisma: Prism
     await interaction.editReply({
         embeds: [
             {
-                "color": 3092790,
+                "color": 2895153,
                 "image": {
                     "url": "https://media.discordapp.net/attachments/1072902797999210506/1072910191823171665/Marketplace_Requirements.png"
                 }
             },
             {
                 "title": "Marketplace Verification Application",
-                "color": 3092790,
+                "color": 2895153,
                 "description": "Please wait while we check your eligibility for the marketplace.",
                 "image": {
                     "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"
@@ -97,7 +97,7 @@ async function logicOrSomethingIDK(interaction: ButtonInteraction, prisma: Prism
             content: null,
             embeds: [
                 {
-                    "color": 3092790,
+                    "color": 2895153,
                     "image": {
                         "url": "https://media.discordapp.net/attachments/1072902797999210506/1072910191823171665/Marketplace_Requirements.png"
                     }
@@ -105,7 +105,7 @@ async function logicOrSomethingIDK(interaction: ButtonInteraction, prisma: Prism
                 {
                     "title": "Marketplace Application Requirements",
                     "description": "You do not meet one or more of the [requirements](https://discord.com/channels/725241819960705154/1072912875628269648/ 'Marketplace Verification Requirements') to be able to apply for verification status.",
-                    "color": 3092790,
+                    "color": 2895153,
                     "image": {
                         "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"
                     }
@@ -113,7 +113,7 @@ async function logicOrSomethingIDK(interaction: ButtonInteraction, prisma: Prism
                 ...hasMessages ? [{
                     "title": "Message Requirement",
                     "description": `Members must have a minimum of 100 messages on the discord server in order to apply for verified marketplace poster status.\n\nYou Currently have **${messageResults} Messages**.`,
-                    "color": 3092790,
+                    "color": 2895153,
                     "image": {
                         "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"
                     }
@@ -121,7 +121,7 @@ async function logicOrSomethingIDK(interaction: ButtonInteraction, prisma: Prism
                 ...isOlder ? [{
                     "title": "Membership Duration Requirement",
                     "description": `In order to become a verified marketplace poster, members must be a part of the discord server for at least 30 days.\n\nYou've been a member for **${Math.floor(daysDiff)} Days**.`,
-                    "color": 3092790,
+                    "color": 2895153,
                     "image": {
                         "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"
                     }
@@ -134,14 +134,14 @@ async function logicOrSomethingIDK(interaction: ButtonInteraction, prisma: Prism
             content: null,
             embeds: [
                 {
-                    "color": 3092790,
+                    "color": 2895153,
                     "image": {
                         "url": "https://media.discordapp.net/attachments/1072902797999210506/1072910191823171665/Marketplace_Requirements.png"
                     }
                 },
                 {
                     "title": "Marketplace Verification Application",
-                    "color": 3092790,
+                    "color": 2895153,
                     "description": "Congratulations! You meet all of the requirements to apply for verified marketplace poster status.\n\nPlease click the button below to fill out the form in order to apply for verification status.",
                     "image": {
                         "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"

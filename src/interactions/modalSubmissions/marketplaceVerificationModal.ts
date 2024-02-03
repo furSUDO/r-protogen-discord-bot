@@ -27,14 +27,14 @@ export class MPSubmit implements Submission {
         content: `+info ${interaction.user.id}`,
         embeds: [
           {
-            color: 3092790,
+            color: 2895153,
             image: {
               url: 'https://media.discordapp.net/attachments/1072902797999210506/1072904224775602287/Marketplace_Var.png'
             }
           },
           {
             title: 'New Application!',
-            color: 3092790,
+            color: 2895153,
             fields: [
               {
                 name: 'User',
@@ -88,7 +88,7 @@ export class MPSubmit implements Submission {
       }).then(msg => {
         interaction.editReply({
           embeds: [{
-            color: 3092790,
+            color: 2895153,
             image: {
               url: 'https://media.discordapp.net/attachments/1072902797999210506/1072971687714365570/Request_Sent.png'
             }

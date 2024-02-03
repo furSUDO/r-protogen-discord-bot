@@ -15,7 +15,7 @@ export class Embed implements SlashCommand {
                 {
                     name: "Marketplace Application",
                     value: "marketplace_application"
-                }
+                },
             ]
         },
         {
@@ -36,7 +36,7 @@ export class Embed implements SlashCommand {
                 data = {
                     embeds: [
                         {
-                          "color": 3092790,
+                          "color": 2895153,
                           "image": {
                             "url": "https://media.discordapp.net/attachments/1072902797999210506/1072904224473624657/Marketplace.png"
                           }
@@ -44,7 +44,7 @@ export class Embed implements SlashCommand {
                         {
                           "title": "Info",
                           "description": "Welcome to the r/protogen Marketplace!\nHere, verified artists can showcase their work and offer their services, including commission opportunities and fursona adoptions, to the community.",
-                          "color": 3092790,
+                          "color": 2895153,
                           "image": {
                             "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"
                           }
@@ -52,7 +52,7 @@ export class Embed implements SlashCommand {
                         {
                           "title": "Guidelines",
                           "description": "All posts in <#1072906792641773629> must comply with the server's guidelines, which can be found in the <#745228528450142289>. \nTo ensure a smooth and fair marketplace experience, it is important to familiarize yourself with these guidelines before making a post.",
-                          "color": 3092790,
+                          "color": 2895153,
                           "image": {
                             "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"
                           }
@@ -60,7 +60,7 @@ export class Embed implements SlashCommand {
                         {
                           "title": "How can I post?",
                           "description": "To ensure the quality and authenticity of marketplace posts, all members must be verified before they are allowed to post. To start the verification process, simply click the button below.\n\nBefore applying, be sure to review the Marketplace Verification Requirements by clicking [here](https://discord.com/channels/725241819960705154/1072912875628269648 'Marketplace Verification Requirements') to ensure you meet all the necessary criteria.",
-                          "color": 3092790,
+                          "color": 2895153,
                           "image": {
                             "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"
                           }
