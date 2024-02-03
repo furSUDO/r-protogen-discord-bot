@@ -15,5 +15,5 @@ export class BaseModalSubmission {
 
 export interface Submission extends BaseModalSubmission {
     custom_id: string;
-    execute(interaction: ModalSubmitInteraction, prisma: PrismaClient) : Promise<void>;
+    execute(interaction: ModalSubmitInteraction, prisma: PrismaClient): Promise<void>;
 }
