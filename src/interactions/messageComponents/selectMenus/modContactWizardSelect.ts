@@ -14,7 +14,6 @@ export class ModContactWizardSelectMenu implements SelectMenu {
                 break;
             case "mcw_report":
                 //TODO - implement report
-                console.debug('report');
                 interaction.update({
                     embeds: [
                         {
