@@ -22,5 +22,5 @@ export interface Button extends BaseMessageComponent {
 
 export interface SelectMenu extends BaseMessageComponent {
     custom_id: string;
-    execute(interaction: AnySelectMenuInteraction): Promise<void>;
+    execute(interaction: AnySelectMenuInteraction, prisma: PrismaClient): Promise<void>;
 }
