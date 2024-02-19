@@ -6,6 +6,7 @@ import { env } from '../../../env';
 export class Custom implements Button {
     custom_id = 'custom_';
     public async execute(interaction: ButtonInteraction) {
+        if (!interaction.isButton()) return;
         await interaction.deferReply({ ephemeral: true })
         const args = interaction.customId.split('_');
         switch (args[1]) {
