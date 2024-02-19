@@ -4,3 +4,4 @@ dist
 .env
 prisma/dev.db
 .vscode
+prisma/migrations
