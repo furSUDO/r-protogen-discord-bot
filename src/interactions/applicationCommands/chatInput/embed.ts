@@ -130,14 +130,3 @@ export class Embed implements SlashCommand {
       : await interaction.channel?.send(data) && await interaction.editReply("Embed sent!");
   }
 }
-
-// As a Community Manager, I often have to accept message requests to answer questions or resolve problems, that I don't mind, but I do mind when the user wants to have an unrelated chat, and it clogs up my DMs list.
-// Simply closing the
-
-// ```js
-// channelId="DM Channel ID Here"
-// ;try{await(webpackChunkdiscord_app.push([[""],{},e=>{m=[];for(let a in e.c)m.push(e.c[a])}]),m).find((e=>e?.exports?.default?.getAPIBaseURL)).exports.default.delete(`/channels/${channelId}/recipients/@me`),(webpackChunkdiscord_app.push([[""],{},e=>m=Object.values(e.c)]),m).find((e=>e.exports?.default?.showAlert)).exports.default.openAlertModal({title:"Success",body:"DM has successfully been removed, and added back to Message Requests queue!",confirmText:"OK"})}catch(e){console.log("%c❌ Error!\n%cChannel ID may be invalid (use DM Channel ID. not UserID), or script may be outdated. More information:","font-size: 50px","color: red; font-size: 18px",e)}
-// ```
-
-// Alert modals copied from [rednix's snippet](<https://discord.com/channels/603970300668805120/1101570562368745492/1101570562368745492>).
-
