@@ -39,7 +39,7 @@ export class ModContactReportSM implements SelectMenu {
                     components: [
                         {
                             type: 3,
-                            custom_id: "mcw_report_user",
+                            custom_id: `customsm_mcwru_${interaction.users.first()?.id}`,
                             options: [
                                 {
                                     label: "harassment",
