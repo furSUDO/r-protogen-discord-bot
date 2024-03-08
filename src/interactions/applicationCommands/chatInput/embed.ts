@@ -19,7 +19,11 @@ export class Embed implements SlashCommand {
         {
           name: "Mod Contact",
           value: "mod_contact"
-        }
+        },
+        {
+          name: "Mod Area",
+          value: "mod_area"
+        },
       ]
     },
     {
@@ -119,6 +123,92 @@ export class Embed implements SlashCommand {
               ]
             }
           ]
+        }
+        break;
+
+      case "mod_area":
+        data = {
+          "embeds": [
+            {
+              "color": 3092790,
+              "image": {
+                "url": "https://media.discordapp.net/attachments/1072902797999210506/1073448128931438622/Mod_Area.png"
+              }
+            },
+            {
+              "title": "🔨 Mod Notion Links",
+              "color": 3092790,
+              "fields": [
+                {
+                  "name": "Resources",
+                  "value": "🌊 [Moderation Flow](https://furmedia.notion.site/Moderation-Flow-fc2400888eb44e3297f4617db2f571a5 'Our moderation flow on Notion.')\n\n🤖 [Our bots, and what they do](https://furmedia.notion.site/Our-Bots-and-what-they-do-d88a5fb4e3c0438997f7985d0dfe1f2f 'List of our bots and their most used commands.')",
+                  "inline": true
+                },
+                {
+                  "name": "ㅤ",
+                  "value": "⚠️ [Handling difficult situations](https://furmedia.notion.site/Handling-difficult-situations-9139341123e74f8c813b9d455983865b 'Guide to handling difficult situations.')\n\n📕 [General Resources](https://furmedia.notion.site/Resources-8a2b417195d348618cc3f1c1b66cf1b4 'Moderation related resources')",
+                  "inline": true
+                }
+              ],
+              "image": {
+                "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"
+              }
+            },
+            {
+              "title": "🛡️ Our Channels",
+              "color": 3092790,
+              "fields": [
+                {
+                  "name": "General",
+                  "value": "🫂 [Mod Chat](https://discord.com/channels/725241819960705154/1073451505530716250 'General Chat for the mods <3')"
+                },
+                {
+                  "name": "Discord",
+                  "value": "🛡️ [Discord Moderation](https://discord.com/channels/725241819960705154/1073451689807458304 'Channel for discussion and running commands')",
+                  "inline": true
+                },
+                {
+                  "name": "Reddit",
+                  "value": "🛡️ [Reddit Moderation](https://discord.com/channels/725241819960705154/1073451763824345128 'Channel for discussion of subreddit stuff')",
+                  "inline": true
+                },
+                {
+                  "name": "ㅤ",
+                  "value": "ㅤ",
+                  inline: true
+                },
+                {
+                  "name": "Moderation Queues",
+                  "value": "🙋 [Marketplace Approval Queue](https://discord.com/channels/725241819960705154/1072956952021311610)\n\n💌 [ModMail Logs](https://discord.com/channels/725241819960705154/1215766690844119181)",
+                  inline: true
+                },
+                {
+                  "name": "ㅤ",
+                  value: "❗ [Report Queue](https://discord.com/channels/725241819960705154/1074404711433777183)",
+                  inline: true
+                },
+                {
+                  "name": "ㅤ",
+                  "value": "ㅤ",
+                  inline: true
+                },
+              ],
+              "image": {
+                "url": "https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png"
+              }
+            }
+          ],
+          components: [{
+            type: 1,
+            components: [
+              {
+                type: 2,
+                label: 'Create ModMail Ticket',
+                style: 1,
+                custom_id: `ma_create_mmt_showform`,
+              },
+            ]
+          }]
         }
         break;
 

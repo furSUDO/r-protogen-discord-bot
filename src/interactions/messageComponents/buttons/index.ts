@@ -3,6 +3,7 @@ import { Custom } from "./custom";
 
 import { MarketplaceApply } from "./marketplaceApply";
 import { MarketplaceShowForm } from "./marketplaceShowForm";
+import { MAMMCShowForm } from "./modAreaCreateMMTForm";
 import { ModContactWizard } from "./modContactWizard";
 
 export const ButtonComponents: Array<BaseMessageComponent> = [
@@ -10,5 +11,7 @@ export const ButtonComponents: Array<BaseMessageComponent> = [
     new MarketplaceApply,
     new Custom,
     new MarketplaceShowForm,
-    new ModContactWizard
+    new ModContactWizard,
+    new MAMMCShowForm
+    
 ]
