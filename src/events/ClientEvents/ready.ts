@@ -11,5 +11,6 @@ export default class Ready implements BaseEvent {
         console.log(`Ready! Logged in as ${client?.user?.tag}`);
         // @ts-ignore
         // client.application?.commands.set(applicationCommands)
+        client.guilds.cache.get('725241819960705154')?.commands.set(applicationCommands)
     }
 }

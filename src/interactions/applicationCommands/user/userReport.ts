@@ -20,7 +20,7 @@ export class UserReport implements UserCommand {
                     image: {
                         url: 'https://media.discordapp.net/attachments/1072902797999210506/1074879637718585344/report.png'
                     },
-                    color: 3092790
+                    color: 2895153
                 }, {
                     fields: [{
                         name: "User",
@@ -30,7 +30,7 @@ export class UserReport implements UserCommand {
                         name: 'Reported By',
                         value: `${interaction.user} (${interaction.user.id})`,
                     }],
-                    color: 3092790,
+                    color: 2895153,
                     image: {
                         url: 'https://cdn.discordapp.com/attachments/756644176795533334/847276996564353054/Embed_width.png'
                     },

@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import { ButtonInteraction, MessageComponentInteraction } from "discord.js";
+import { AnySelectMenuInteraction, ButtonInteraction, MessageComponentInteraction } from "discord.js";
 
 export class BaseMessageComponent {
     custom_id: string;
@@ -18,4 +18,9 @@ export class BaseMessageComponent {
 export interface Button extends BaseMessageComponent {
     custom_id: string;
     execute(interaction: ButtonInteraction, prisma: PrismaClient): Promise<void>;
+}
+
+export interface SelectMenu extends BaseMessageComponent {
+    custom_id: string;
+    execute(interaction: AnySelectMenuInteraction, prisma: PrismaClient): Promise<void>;
 }

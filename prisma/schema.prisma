@@ -24,3 +24,12 @@ model ReportedMessage {
   authorId    String
   reportCount Int    @default(1)
 }
+
+model ModMailTicket {
+  id         String  @id @default(cuid())
+  userId     String
+  channelId  String
+  threadId   String
+  reportedId String?
+  archiveUrl String?
+}
